@@ -992,8 +992,8 @@ a,
 }
 .section .parallax,
 .section .static-image {
-  width: 100%;
-  height: 100vh;
+  width: 100%; /* cambio */
+  height: 70vh;
   overflow: hidden;
   display: block;
   position: relative;
@@ -1114,7 +1114,8 @@ a,
   background: #50236F;
 }
 .filter.filter-color-red:before {
-  background: #de6168;
+  /*background: #de6168;*/
+  background: #7461de;
 }
 .filter.filter-gradient-black:before {
   background: #1f1c2c;
@@ -1980,9 +1981,7 @@ a,
 .section-header-blog .container,
 .section-presentation-page .container {
   z-index: 3;
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  height: 10%;
   display: block;
   top: 0;
 }
@@ -2458,7 +2457,7 @@ a,
   color: #FFFFFF;
 }
 
-/* HOME PAGE */
+/* HOME PAGE * cambio height 100vh*/ 
 .section .image {
   background-size: cover;
   background-position: center center;
